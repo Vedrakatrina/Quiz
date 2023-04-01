@@ -1,0 +1,56 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: goldenrod;
+}
+
+.header{
+    text-align: center;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+}
+
+.container {
+    border: 10px solid green;
+    padding: 70px;
+    display: flexbox;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container input{
+    margin-bottom: 15px;
+}
+
+#btn {
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px 30px;
+}
+
+#btn:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.answer-box {
+    display: flexbox;
+    margin: auto;
+    border: 10px solid green;
+    padding: 0 20px;
+    width: 30%;
+    text-align: left;
+}
+
+.footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    margin:10px;
+}
